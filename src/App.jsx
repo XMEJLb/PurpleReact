@@ -5,8 +5,8 @@ import ParagraphLow from './components/ParagraphLow/ParagraphLow';
 import Headling from './components/Headling/Headling';
 function App() {
   const text = 'Введите название фильма, сериала или мультфильма для поиска и добавления в избранное.';
-    
-  
+    const textButtonSearch = 'Искать'
+
   
   return (
     <>
@@ -14,7 +14,9 @@ function App() {
         <ParagraphLow
         text={text}
         />
-        <Button/>
+        <Button
+        text={textButtonSearch}
+        />
         
     </>
   );
